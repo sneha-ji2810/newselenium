@@ -23,9 +23,11 @@ public class BasicSeleniumPgm {
 		String URL=driver.getCurrentUrl();
 		System.out.println(URL);
 		
-		//Closing the browser
-		driver.close();
+		//Closing the current window of the browser
+		//driver.close();
 		
+		//Close the entire browser
+		driver.quit();
 
 	}
 
